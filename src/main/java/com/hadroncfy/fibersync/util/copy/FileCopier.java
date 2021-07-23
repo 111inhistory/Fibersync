@@ -179,10 +179,5 @@ public class FileCopier {
             }
             return FileVisitResult.CONTINUE;
         }
-
-        @Override
-        public FileVisitResult visitFileFailed(Path file, IOException exc) throws IOException {
-            return FileVisitResult.CONTINUE;
-        }
     }
 }
